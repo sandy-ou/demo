@@ -14,7 +14,7 @@ export default {
   components: Components,
   created(){
     //view components get from backend services
-    let currViewComps = ['ComponentA', 'ComponentB'];
+    let currViewComps = ['ComponentA', 'ComponentB', 'ComponentC'];
 
     this.currentView = currViewComps;
   }
